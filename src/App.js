@@ -4,20 +4,25 @@ import Navbar from './Navbar';
 import Home from './Home';
 // import OtherPage from './OtherPage'; // Import other pages as needed
 import Login from './Login';
+import Signup from './Signup';  
 
 function App() {
   return (
-    <div className="App bg-gray-800">
-       <Navbar />
+    <div className="App bg-gray-800 w-full">
+    <Navbar/>
        <BrowserRouter>
-    <Routes>
-     
-        <Route path="/" element={<Home/>} />
-        {/* Add more routes for other pages */}
-        <Route path="/login" element={<Login/>} />
-      
-    </Routes>
-    </BrowserRouter>
+
+<Routes>
+ 
+    <Route path="/" element={<Home/>} />
+    {/* Add more routes for other pages */}
+    <Route path="/login" element={<Login/>} />
+    <Route path="/signup" element={<Signup/>} />
+  
+</Routes>
+</BrowserRouter>
+
+  
     </div>
   );
 }
