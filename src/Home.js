@@ -31,7 +31,7 @@ Our deep search technology analyzes your book to identify plagiarism and AI, to
 </div>
  
  {/* <Link to="/login" className=' text-center'> */}
-    <Link to="/login" class=" bg-red-500 w-3/5 mx-auto p-2 md:p-5 mt-5 hover:bg-blue-700 text-white text-center font-bold rounded">
+    <Link to="/code" class=" bg-red-500 w-3/5 mx-auto p-2 md:p-5 mt-5 hover:bg-blue-700 text-white text-center font-bold rounded">
           Check for Plagiarism
         {/* </button> */}
         </Link>

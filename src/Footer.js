@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -6,7 +7,7 @@ function Footer() {
         <>
   {/*Footer container*/}
   <footer className="flex flex-col items-center bg-gray-800 text-center text-white">
-    <div className="container p-6">
+    {/* <div className="container p-6">
       <div className="">
         <p className="flex items-center justify-center">
           <span className="me-4">Register for free</span>
@@ -16,11 +17,11 @@ function Footer() {
             data-twe-ripple-init=""
             data-twe-ripple-color="light"
           >
-            Sign up!
+          <Link to="/signup">  Sign up!</Link>
           </button>
         </p>
       </div>
-    </div>
+    </div> */}
     {/*Copyright section*/}
     <div className="w-full bg-gray-900 p-4 text-center">
       © 2024 Copyright:
